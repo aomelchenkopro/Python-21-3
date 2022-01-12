@@ -7,11 +7,11 @@ a = int(input('Please, enter the first segment length: '))
 b = int(input('Please, enter the second segment length: '))
 c = int(input('Please, enter the third segment length: '))
 
-fl_existence = False
+triangle_exists = False
 if a < (b+c) and b < (a+c) and c < (a+b):
-    fl_existence = True
+    triangle_exists = True
 
-if fl_existence:
+if triangle_exists:
     print('Triangle exists')
 
     if a == b == c:
